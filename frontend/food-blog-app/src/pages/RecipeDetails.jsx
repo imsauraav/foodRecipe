@@ -20,7 +20,7 @@ export default function RecipeDetails() {
       {/* Image */}
       <img
         className="recipe-main-img"
-        src={`http://localhost:5000/images/${recipe.coverImage}`}
+        src={`https://foodrecipe-backend-layw.onrender.com/images/${recipe.coverImage}`}
       />
 
       {/* Content */}
